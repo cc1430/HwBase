@@ -18,7 +18,8 @@ export struct Index {
     "QRCodePage",
     "ColumnSplitPage",
     "GridPage",
-    "ListPage"
+    "ListPage",
+    "VideoPage"
   ]
 
   async aboutToAppear() {
@@ -72,6 +73,9 @@ export struct Index {
                     break;
                   case 10:
                     router.pushUrl({ url: "pages/component/ListPage" })
+                    break;
+                  case 11:
+                    router.pushUrl({ url: "pages/component/VideoPage" })
                     break;
                   default:
                     break;

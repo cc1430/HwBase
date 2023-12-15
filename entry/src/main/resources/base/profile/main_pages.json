@@ -16,6 +16,7 @@
     "pages/component/QRCodePage",
     "pages/component/ColumnSplitPage",
     "pages/component/GridPage",
-    "pages/component/ListPage"
+    "pages/component/ListPage",
+    "pages/component/VideoPage"
   ]
 }

@@ -6,6 +6,9 @@ import CommonConstants from '../common/CommonConstants'
 import { generateMD5Sign } from '../utils/signUtils'
 import { RespBaseBean } from '../model/response/RespBaseBean'
 import { LoginBean } from '../model/response/LoginBean'
+import { YesApiReqBean } from '../model/request/YesApiReqBean'
+import YesApiConstants from '../common/YesApiConstants'
+import { YesApiRespBean } from '../model/response/YesApiRespBean'
 
 
 export function tempLogin(phone: string) {
@@ -33,6 +36,19 @@ export function getDeviceList(token?: string) {
   return axiosClient.post({
     url: "2c/common/user/device/list/display",
     baseURL: CommonConstants.SMART_HOME_BASE_URL,
+    data: body
+  })
+}
+
+export function getYesApiTable(modelName: string, id: string) {
+  let body = new YesApiReqBean()
+  body.service = YesApiConstants.SERVICE_TABLE_GET
+  body.model_name = modelName
+  body.id = id
+
+  return axiosClient.post<YesApiRespBean>({
+    url: "api/SVIP/Scc1430_MyApi/AAppTableGet",
+    baseURL: YesApiConstants.BASE_URL,
     data: body
   })
 }

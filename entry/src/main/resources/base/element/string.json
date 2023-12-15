@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "page_title",
+      "value": "待办"
+    },
+    {
+      "name": "internet_reason_desc",
+      "value": "申请网络权限"
+    },
+    {
+      "name": "refresh_text",
+      "value": "正在刷新"
+    }
+  ]
+}

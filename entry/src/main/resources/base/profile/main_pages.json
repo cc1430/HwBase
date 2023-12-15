@@ -1,0 +1,21 @@
+{
+  "src": [
+    "pages/MainPage",
+    "pages/Index",
+    "pages/LoginPage",
+    "pages/DeviceListPage",
+    "pages/StudyPage",
+    "pages/PersonPage",
+    "pages/component/TodoListPage",
+    "pages/component/ButtonPage",
+    "pages/component/CheckboxPage",
+    "pages/component/ImagePage",
+    "pages/component/LoadingProgressPage",
+    "pages/component/NavigationPage",
+    "pages/component/ProgressPage",
+    "pages/component/QRCodePage",
+    "pages/component/ColumnSplitPage",
+    "pages/component/GridPage",
+    "pages/component/ListPage"
+  ]
+}

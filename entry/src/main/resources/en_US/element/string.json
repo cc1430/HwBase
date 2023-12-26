@@ -23,6 +23,30 @@
     {
       "name": "refresh_text",
       "value": "正在刷新"
+    },
+    {
+      "name": "speed_play",
+      "value": "Playing at double speed"
+    },
+    {
+      "name": "monolithic_cycle",
+      "value": "monolithic cycle"
+    },
+    {
+      "name": "continuous_playback",
+      "value": "Continuous playback"
+    },
+    {
+      "name": "video_playback",
+      "value": "Video playback"
+    },
+    {
+      "name": "cancel",
+      "value": "To cancel"
+    },
+    {
+      "name": "link_check_address_internet",
+      "value": "Ensure that the IP address is correct and the network is normal"
     }
   ]
 }

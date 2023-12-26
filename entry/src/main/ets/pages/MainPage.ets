@@ -1,4 +1,5 @@
 import CommonConstants from '../common/CommonConstants'
+import ScreenUtil from '../utils/ScreenUtil'
 import { DeviceListPage } from './DeviceListPage'
 import { Index } from './Index'
 import { PersonPage } from './PersonPage'
@@ -44,7 +45,7 @@ export struct MainPage {
   ]
 
   aboutToAppear() {
-
+    ScreenUtil.setScreenSize();
   }
 
   build() {

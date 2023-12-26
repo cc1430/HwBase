@@ -58,6 +58,39 @@ export default class CommonConstants {
   static readonly COLUMN_SPACE: number = 16;
 
   /**
+   * time system, Hour-minute-second conversion.
+   */
+  static readonly TIME_UNIT: number = 60;
+
+  /**
+   * Initial Time UNIT.
+   */
+  static readonly INITIAL_TIME_UNIT: string = '00';
+
+  /**
+   * Zero padding, 2 bits.
+   */
+  static readonly PADDING_LENGTH: number = 2;
+
+  /**
+   * String zero padding.
+   */
+  static readonly PADDING_STR: string = '0';
+
+  /**
+   * Width-height ratio.
+   */
+  static readonly ASPECT_RATIO: number = 1;
+  /**
+   * One hundred.
+   */
+  static readonly ONE_HUNDRED: number = 100;
+  /**
+   * A thousand.
+   */
+  static readonly A_THOUSAND: number = 1000;
+
+  /**
    * agents data.
    */
   static readonly TODO_DATA: Array<string> = [

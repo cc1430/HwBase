@@ -31,6 +31,48 @@
     {
       "name": "list_item_height",
       "value": "64vp"
+    },
+
+
+    {
+      "name": "control_image_width",
+      "value": "24vp"
+    },
+    {
+      "name": "slider_font_size",
+      "value": "14fp"
+    },
+    {
+      "name": "title_popup_image_size",
+      "value": "24vp"
+    },
+    {
+      "name": "title_popup_image_left",
+      "value": "16vp"
+    },
+    {
+      "name": "title_popup_font_size",
+      "value": "16fp"
+    },
+    {
+      "name": "title_popup_text_left",
+      "value": "8vp"
+    },
+    {
+      "name": "title_popup_divider_left",
+      "value": "47vp"
+    },
+    {
+      "name": "title_image_size",
+      "value": "24vp"
+    },
+    {
+      "name": "title_dialog_font_size",
+      "value": "16fp"
+    },
+    {
+      "name": "text_border_radius",
+      "value": "8vp"
     }
   ]
 }

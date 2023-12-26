@@ -46,6 +46,10 @@
       "value": "#707070"
     },
     {
+      "name": "grey_888888",
+      "value": "#888888"
+    },
+    {
       "name": "grey_8F8F8F",
       "value": "#8F8F8F"
     },
@@ -64,6 +68,14 @@
     {
       "name": "grey_dbdbdb",
       "value": "#dbdbdb"
+    },
+    {
+      "name": "grey_DDDDDD",
+      "value": "#DDDDDD"
+    },
+    {
+      "name": "grey_D3D3D3",
+      "value": "#D3D3D3"
     },
     {
       "name": "grey_C2C2C2",
